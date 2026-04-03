@@ -84,7 +84,3 @@ with logger.trace("req_1"):
 ## 📄 Лицензия
 
 MIT
-
-## 🔄 Mirror test 123456
-
-This is a test commit to check GitLab mirroring.
