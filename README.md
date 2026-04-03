@@ -62,4 +62,8 @@ Simple. Local. Fast debugging.
 
 ## 📄 License
 
+<<<<<<< HEAD
 MIT
+=======
+MIT
+>>>>>>> 42f3e2188ce3937645b458585478ad36d030c8bc
