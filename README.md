@@ -3,13 +3,25 @@
 
 # WebLoggy 🚀
 
-Lightweight debugging web tool for Python
+## 🌍 Language
 
-WebLoggy turns your logs into a live web interface — instantly.
+- 🇬🇧 [English](README.md)
+- 🇷🇺 [Русский](README.ru.md)
 
+---
+
+WebLoggy turns your logs into a live web interface — instantly.  
 No setup. Just debug.
 
 ---
+
+## 🖥 Preview
+
+### Dashboard
+![Dashboard](docs/dashboard.png)
+
+### Logs view
+![Logs](docs/logs.png)
 
 ## ✨ Features
 
@@ -21,6 +33,15 @@ No setup. Just debug.
 * 💬 Telegram / Discord (optional)
 
 ---
+
+## 🤔 Why WebLoggy?
+
+Debugging Python apps is messy:
+- logs are scattered
+- no structure
+- hard to trace requests
+
+WebLoggy solves this with a simple local web interface.
 
 ## 🚀 Quick Start
 
@@ -39,7 +60,7 @@ auth.info("user logged in")
 auth.error("user not found", user_id=123)
 ```
 
-Open:
+Run your app and open:
 http://localhost:8000
 
 ---
