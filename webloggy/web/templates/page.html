@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js"></script>
+    <title>{{ page }}</title>
+</head>
+<body>
+
+<h2>📄 {{ page }} ({{ logs|length }} logs)</h2>
+
+<input id="search" placeholder="Search..." onkeyup="filterLogs()" />
+
+{% for log in logs %}
+    <div class="log">
+        <span class="level-{{ log.level }}">
+            [{{ log.level.upper() }}]
+        </span>
+
+        {{ log.message }}
+
+        <div>⏱ {{ log.timestamp.strftime("%H:%M:%S") }}</div>
+
+        {% if log.trace_id %}
+            <div>🔗 {{ log.trace_id }}</div>
+        {% endif %}
+
+        {% if log.context %}
+            <pre>{{ log.context | tojson }}</pre>
+        {% endif %}
+    </div>
+{% endfor %}
+
+</body>
+</html>

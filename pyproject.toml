@@ -1,0 +1,20 @@
+[project]
+name = "webloggy"
+version = "0.1.0"
+description = "Lightweight debugging web tool for Python"
+authors = [{ name = "JustDzot" }]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "jinja2"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+webloggy = [
+    "web/templates/*.html",
+    "web/static/*"
+]

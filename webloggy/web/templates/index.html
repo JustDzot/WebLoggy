@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>WebLoggy</title>
+</head>
+<body>
+
+<h1>WebLoggy</h1>
+
+{% for page in pages %}
+    <a class="card" href="/{{ page }}">
+        📄 {{ page }}
+    </a>
+{% endfor %}
+
+</body>
+</html>

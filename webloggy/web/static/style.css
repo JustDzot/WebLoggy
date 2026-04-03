@@ -1,0 +1,33 @@
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.card {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background: #1e293b;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.log {
+    background: #1e293b;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.level-info { color: #22c55e; }
+.level-warning { color: #facc15; }
+.level-error { color: #ef4444; }
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
