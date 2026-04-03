@@ -18,10 +18,10 @@ No setup. Just debug.
 ## 🖥 Preview
 
 ### Dashboard
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/dashboard.jpg)
 
 ### Logs view
-![Logs](docs/logs.png)
+![Logs](docs/logs.jpg)
 
 ## ✨ Features
 
